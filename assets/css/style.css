@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul { list-style: none; padding-left: 5px; }
+
+a { color:blue; text-decoration: none;}
+
+header {
+    background-image: url(/assets/images/fundoheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+aside {
+    margin: 0;
+    padding-left: 15px;
+    border-left: solid 1px #cdcdcd;
+}
+
+aside a {
+    color: black;
+}
+
+nav {
+    border-right: solid 1px #cdcdcd;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #181829;
+}
+
+footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    text-align: center;
+}
+
+.bar {
+    background-color: #9a9a9e;
+    padding:10px;
+    border-top: solid 3px #c5b2b2;
+    border-bottom: solid 3px #c5b2b2;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main a {
+    color: black;
+}
+
+.main figure {
+    text-align: center;
+}
+
+.logo figure {
+    margin: 0;
+    padding: 0;
+}
